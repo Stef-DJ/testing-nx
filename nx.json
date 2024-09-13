@@ -33,7 +33,7 @@
       "options": {
         "targetName": "test"
       },
-      "exclude": ["apps/server1-e2e/**/*"]
+      "exclude": ["apps/server1-e2e/**/*", "apps/server2-e2e/**/*"]
     }
   ]
 }
