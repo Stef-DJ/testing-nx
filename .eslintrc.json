@@ -15,6 +15,10 @@
               {
                 "sourceTag": "scope:server1",
                 "notDependOnLibsWithTags": ["scope:library"]
+              },
+              {
+                "sourceTag": "scope:frontend1",
+                "onlyDependOnLibsWithTags": ["scope:frontend-library"]
               }
             ]
           }
