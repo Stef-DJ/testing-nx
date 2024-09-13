@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@testing-nx/server-libs/db-library": [
+        "libs/server-libs/db-library/src/index.ts"
+      ],
+      "@testing-nx/server1": [ //todo: This is the manual code to allow cross app sharing
+        "apps/server1/src/main.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -1,0 +1,9 @@
+{
+  "name": "server-libs-db-library",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/server-libs/db-library/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project server-libs-db-library --web",
+  "targets": {}
+}
