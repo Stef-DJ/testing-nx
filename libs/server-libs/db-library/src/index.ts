@@ -1,1 +1,1 @@
-export * from './lib/server-libs-db-library';
+export * from './lib/server-libs-db-library.js';

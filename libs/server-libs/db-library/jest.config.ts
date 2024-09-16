@@ -1,7 +1,7 @@
 /* eslint-disable */
 export default {
   displayName: 'server-libs-db-library',
-  preset: '../../../jest.preset.js',
+  preset: '../../../jest.preset.cjs',
   testEnvironment: 'node',
   transform: {
     '^.+\\.[tj]s$': ['ts-jest', { tsconfig: '<rootDir>/tsconfig.spec.json' }],

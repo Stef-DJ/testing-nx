@@ -8,7 +8,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "importHelpers": true,
-    "target": "es2015",
+    "target": "ES2022",
     "module": "esnext",
     "lib": ["es2020", "dom"],
     "skipLibCheck": true,
@@ -16,10 +16,14 @@
     "baseUrl": ".",
     "paths": {
       "@testing-nx/component-library": ["libs/component-library/src/index.ts"],
+      "@testing-nx/javascript-library": [
+        "libs/javascript-library/src/index.js"
+      ],
       "@testing-nx/server-libs/db-library": [
         "libs/server-libs/db-library/src/index.ts"
       ],
-      "@testing-nx/server1": ["apps/server1/src/main.ts"]
+      "@testing-nx/server1": ["apps/server1/src/main.ts"],
+      "@testing-nx/typescript-library": ["libs/typescript-library/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
