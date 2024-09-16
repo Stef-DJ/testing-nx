@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { NxWelcomeComponent } from './nx-welcome.component';
 import {ComponentLibraryComponent} from '@testing-nx/component-library';
-import {typescriptLibrary} from '@testing-nx/typescript-library'; 
+import {typescriptLibrary, coolJS} from '@testing-nx/typescript-library'; 
 
 
 @Component({
@@ -13,5 +13,5 @@ import {typescriptLibrary} from '@testing-nx/typescript-library';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = `frontend1 + ${typescriptLibrary()}`;
+  title = `frontend1 + ${coolJS()}`;
 }
